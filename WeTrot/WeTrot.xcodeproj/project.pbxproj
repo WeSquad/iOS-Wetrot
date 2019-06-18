@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243A399BA2BF14EA49948236 /* Pods_WeTrot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5045CF79FBA3212063C51DD1 /* Pods_WeTrot.framework */; };
+		8856B86DBABC043171AF7C15 /* Pods_WeTrotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933012F5A97EDC41CE846266 /* Pods_WeTrotUITests.framework */; };
 		9662AD4F22B91FF000800AC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9662AD4E22B91FF000800AC1 /* AppDelegate.swift */; };
 		9662AD5122B91FF000800AC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9662AD5022B91FF000800AC1 /* ViewController.swift */; };
 		9662AD5422B91FF000800AC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9662AD5222B91FF000800AC1 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		9662AD5922B91FF100800AC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9662AD5722B91FF100800AC1 /* LaunchScreen.storyboard */; };
 		9662AD6422B91FF100800AC1 /* WeTrotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9662AD6322B91FF100800AC1 /* WeTrotTests.swift */; };
 		9662AD6F22B91FF100800AC1 /* WeTrotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9662AD6E22B91FF100800AC1 /* WeTrotUITests.swift */; };
+		C3BD0C23DEEFC4CCEC4C31C3 /* Pods_WeTrotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB84A7BAAE6E36A93BCE2051 /* Pods_WeTrotTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04703A41B66BF60A201CA899 /* Pods-WeTrotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeTrotTests.release.xcconfig"; path = "Target Support Files/Pods-WeTrotTests/Pods-WeTrotTests.release.xcconfig"; sourceTree = "<group>"; };
+		0A0FC7EDF05FE83146862274 /* Pods-WeTrotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeTrotTests.debug.xcconfig"; path = "Target Support Files/Pods-WeTrotTests/Pods-WeTrotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C38EDAE4085D9E3AB9FC109 /* Pods-WeTrot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeTrot.release.xcconfig"; path = "Target Support Files/Pods-WeTrot/Pods-WeTrot.release.xcconfig"; sourceTree = "<group>"; };
+		5045CF79FBA3212063C51DD1 /* Pods_WeTrot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeTrot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		851E2476597CE7FA9D153FA7 /* Pods-WeTrot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeTrot.debug.xcconfig"; path = "Target Support Files/Pods-WeTrot/Pods-WeTrot.debug.xcconfig"; sourceTree = "<group>"; };
+		933012F5A97EDC41CE846266 /* Pods_WeTrotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeTrotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9662AD4B22B91FF000800AC1 /* WeTrot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeTrot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9662AD4E22B91FF000800AC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9662AD5022B91FF000800AC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		9662AD6A22B91FF100800AC1 /* WeTrotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeTrotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9662AD6E22B91FF100800AC1 /* WeTrotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeTrotUITests.swift; sourceTree = "<group>"; };
 		9662AD7022B91FF100800AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB84A7BAAE6E36A93BCE2051 /* Pods_WeTrotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeTrotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C503A5641CAD3779D65B5FDD /* Pods-WeTrotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeTrotUITests.debug.xcconfig"; path = "Target Support Files/Pods-WeTrotUITests/Pods-WeTrotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC5E10873FBC11F39325BA61 /* Pods-WeTrotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeTrotUITests.release.xcconfig"; path = "Target Support Files/Pods-WeTrotUITests/Pods-WeTrotUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				243A399BA2BF14EA49948236 /* Pods_WeTrot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3BD0C23DEEFC4CCEC4C31C3 /* Pods_WeTrotTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8856B86DBABC043171AF7C15 /* Pods_WeTrotUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C30A7C7F1E0BB56CE1BD06F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5045CF79FBA3212063C51DD1 /* Pods_WeTrot.framework */,
+				BB84A7BAAE6E36A93BCE2051 /* Pods_WeTrotTests.framework */,
+				933012F5A97EDC41CE846266 /* Pods_WeTrotUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E72DB539F32DC2ACD41148D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				851E2476597CE7FA9D153FA7 /* Pods-WeTrot.debug.xcconfig */,
+				0C38EDAE4085D9E3AB9FC109 /* Pods-WeTrot.release.xcconfig */,
+				0A0FC7EDF05FE83146862274 /* Pods-WeTrotTests.debug.xcconfig */,
+				04703A41B66BF60A201CA899 /* Pods-WeTrotTests.release.xcconfig */,
+				C503A5641CAD3779D65B5FDD /* Pods-WeTrotUITests.debug.xcconfig */,
+				DC5E10873FBC11F39325BA61 /* Pods-WeTrotUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9662AD4222B91FEF00800AC1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				9662AD6222B91FF100800AC1 /* WeTrotTests */,
 				9662AD6D22B91FF100800AC1 /* WeTrotUITests */,
 				9662AD4C22B91FF000800AC1 /* Products */,
+				8E72DB539F32DC2ACD41148D /* Pods */,
+				6C30A7C7F1E0BB56CE1BD06F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9662AD7322B91FF100800AC1 /* Build configuration list for PBXNativeTarget "WeTrot" */;
 			buildPhases = (
+				3E064CCD37701192799B648B /* [CP] Check Pods Manifest.lock */,
 				9662AD4722B91FF000800AC1 /* Sources */,
 				9662AD4822B91FF000800AC1 /* Frameworks */,
 				9662AD4922B91FF000800AC1 /* Resources */,
+				C6A17D2FE782B4E60F37CB9A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9662AD7622B91FF100800AC1 /* Build configuration list for PBXNativeTarget "WeTrotTests" */;
 			buildPhases = (
+				6CE6BDE48B17EBB9DDF6C90E /* [CP] Check Pods Manifest.lock */,
 				9662AD5B22B91FF100800AC1 /* Sources */,
 				9662AD5C22B91FF100800AC1 /* Frameworks */,
 				9662AD5D22B91FF100800AC1 /* Resources */,
@@ -167,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9662AD7922B91FF100800AC1 /* Build configuration list for PBXNativeTarget "WeTrotUITests" */;
 			buildPhases = (
+				05E7B8CE8CBC19F35B9DA1F4 /* [CP] Check Pods Manifest.lock */,
 				9662AD6622B91FF100800AC1 /* Sources */,
 				9662AD6722B91FF100800AC1 /* Frameworks */,
 				9662AD6822B91FF100800AC1 /* Resources */,
@@ -250,6 +295,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05E7B8CE8CBC19F35B9DA1F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeTrotUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E064CCD37701192799B648B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeTrot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CE6BDE48B17EBB9DDF6C90E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeTrotTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A17D2FE782B4E60F37CB9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeTrot/Pods-WeTrot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeTrot/Pods-WeTrot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeTrot/Pods-WeTrot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9662AD4722B91FF000800AC1 /* Sources */ = {
@@ -430,6 +561,7 @@
 		};
 		9662AD7422B91FF100800AC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851E2476597CE7FA9D153FA7 /* Pods-WeTrot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +580,7 @@
 		};
 		9662AD7522B91FF100800AC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C38EDAE4085D9E3AB9FC109 /* Pods-WeTrot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +599,7 @@
 		};
 		9662AD7722B91FF100800AC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A0FC7EDF05FE83146862274 /* Pods-WeTrotTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +621,7 @@
 		};
 		9662AD7822B91FF100800AC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04703A41B66BF60A201CA899 /* Pods-WeTrotTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +643,7 @@
 		};
 		9662AD7A22B91FF100800AC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C503A5641CAD3779D65B5FDD /* Pods-WeTrotUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +664,7 @@
 		};
 		9662AD7B22B91FF100800AC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5E10873FBC11F39325BA61 /* Pods-WeTrotUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
